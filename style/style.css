@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: #000000;
+    padding: 12px 100px;
+}
+header h1{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -9999999px;
+}
+header h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+header ul{
+    width: 271px;
+}
+header ul a{
+    color: #ffffff;
+    padding: 5px;
+    font-size: 18px;
+}
+header.flex{
+    justify-content: flex-start;
+}
+header nav{
+    margin-left: 168px;
+}
+main{
+    padding: 50px 110px;
+}
+h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+.statia{
+    width: 300px;
+    margin-bottom: 22px;
+}
+.statia article{
+    width: 100%;
+    height: 244px;
+    border: 1px solid #000000;
+    padding: 145px 12px 50px 12px;
+    position: relative;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 58px;
+    transition: 0.5s;
+    margin-top: 51px;
+
+}
+.statia p a{
+    color: #000000;
+    font-size: 12px;
+    transition: 0.5s;
+    border-bottom: 1px solid #927f7f00;
+}
+.statia h3{
+    font-size: 18px;
+}
+.statia p{
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+.like{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/lke.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top:-3px;
+    right:0;
+    transition: 0.5s;
+}
+.like:hover{
+    background-image: url(../img/orangelike.png);
+    cursor: pointer;
+}
+.statia:hover article{
+    box-shadow: 0 0 5px #000000;
+}
+.statia:hover p a{
+   border-bottom: 1px solid #000000;
+}
+footer{
+    background-color: #000000;
+    padding: 27px 0 17px 0;
+    color: #ffffff;
+    text-align: center;
+}
+footer a{
+    color: #ffffff;
+}
+footer img{
+    width: 150px;
+}
+footer nav{
+    margin: 26px 0 50px 0;
+}
+.social{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    top:213px;
+}
+.item{
+    width: 100%;
+    height: 50%;
+}
+.fb{
+    background-image: url(../img/fb.png);
+    background-size: 100%;
+    transition: 0.5;
+}
+.insta{
+    background-image: url(../img/insta.png);
+    background-size: 100%;
+    transition: 0.5;
+}
+.fb:hover{
+    background-image: url(../img/fbcolor.png);
+}
+.insta:hover{
+    background-image: url(../img/instacolor.png);
+}
+.fb a, .insta a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
